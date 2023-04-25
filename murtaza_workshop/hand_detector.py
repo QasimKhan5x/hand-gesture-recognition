@@ -107,6 +107,7 @@ class HandDetector():
         '''
         p1 and p2 are the tips of two separate fingers
         and are in the form [landmark_num, x, y]
+        returns length, img, and coordinates
         '''
         x1, y1 = p1[1], p1[2]
         x2, y2 = p2[1], p2[2]
